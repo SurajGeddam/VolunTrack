@@ -1,10 +1,8 @@
-import { StatusBar } from 'expo-status-bar';
 import React, { useState, useRe, useEffect } from "react";
 import { ScrollView, StyleSheet, View, SafeAreaView, Platform, ImageBackground, Image, Pressable, TextInput, TouchableOpacity} from 'react-native';
 import { getAuth, signOut } from "firebase/auth";
 import { initializeApp, firebase } from 'firebase/app';
 import { getDatabase, ref, set, get, push, child, update, remove } from "firebase/database";
-import { delay } from 'q';
 import { Text, Card, Button, Icon } from '@rneui/themed';
 import moment from 'moment';
 

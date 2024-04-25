@@ -4,7 +4,6 @@ import { ScrollView, StyleSheet, View, SafeAreaView, Platform, ImageBackground, 
 import { getAuth, signOut } from "firebase/auth";
 import { initializeApp, firebase } from 'firebase/app';
 import { getDatabase, ref, set, get, push, child, update, remove } from "firebase/database";
-import { delay } from 'q';
 import { Text, Card, Button, Icon } from '@rneui/themed';
 
 const firebaseApp = initializeApp({

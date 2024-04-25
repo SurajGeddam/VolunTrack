@@ -40,7 +40,7 @@ const CARD_WIDTH = CARD_HEIGHT - 50;
 
 
 
-export default class screens extends Component {
+export default class Hub extends Component {
   state = {
     events: {},
     eventKeys: [],
@@ -296,4 +296,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent("mapfocus", () => screens);
+AppRegistry.registerComponent("mapfocus", () => Hub);

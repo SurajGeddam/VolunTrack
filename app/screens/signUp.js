@@ -6,7 +6,6 @@ import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { doc, setDoc, addDoc, collection, getFirestore } from "firebase/firestore";
 import { initializeApp, firebase } from 'firebase/app';
 import { getDatabase, ref, set, get, child, update, remove } from "firebase/database";
-import { listenerCount } from "process";
 
 //import firebaseConfig from '../../db/firebaseConfig.js';
 
