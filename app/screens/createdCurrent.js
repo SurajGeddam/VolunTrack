@@ -21,7 +21,7 @@ const firebaseApp = initializeApp({
   
 const db = getDatabase(firebaseApp);
 
-const createdEvents = ({ navigation }) => {
+const createdCurrent = ({ navigation }) => {
     let [flag, setFlag] = useState("");
     let [events, setEvents] = useState("None")
     let [eventsArr, setEventsArr] = useState([])
@@ -207,4 +207,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default createdEvents; 
+export default createdCurrent; 

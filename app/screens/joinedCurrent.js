@@ -19,7 +19,7 @@ const firebaseApp = initializeApp({
   
 const db = getDatabase(firebaseApp);
 
-const joinedEvents = ({ navigation }) => {
+const joinedCurrent = ({ navigation }) => {
     let [flag, setFlag] = useState("");
     let [event, setEvent] = useState({})
     let [eventsArr, setEventsArr] = useState([])
@@ -120,4 +120,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default joinedEvents; 
+export default joinedCurrent; 

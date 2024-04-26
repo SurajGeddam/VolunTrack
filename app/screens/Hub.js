@@ -39,7 +39,6 @@ const CARD_HEIGHT = height / 4;
 const CARD_WIDTH = CARD_HEIGHT - 50;
 
 
-
 export default class Hub extends Component {
   state = {
     events: {},
@@ -295,5 +294,3 @@ const styles = StyleSheet.create({
     borderColor: "rgba(130,4,150, 0.5)",
   },
 });
-
-AppRegistry.registerComponent("mapfocus", () => Hub);
