@@ -8,7 +8,7 @@ We use QR code technology to automatically track attendance and checked in/out u
 Using this information, we show various metrics about events, including past events that the user volunteered for or organized. 
 In addition, we have a volunteer hub; this uses geolocation to find events in the area, as well as connect the user to various volunteers/organizers.
 
-Getting Started
+# Getting Started
 
 To get the VolunTrack application up and running on your local machine for development and testing purposes, start by downloading the project as a zip file. Once downloaded, unzip the file into your desired directory. This will extract all the necessary files required for the project.
 
