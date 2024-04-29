@@ -21,3 +21,9 @@ Once the environment is configured, you can start the development servers. For t
 To view and test your application on a mobile device, use the Expo Go app, which can be downloaded from the App Store or Google Play. With Expo Go, you can scan the QR code provided by the Metro bundler in your terminal. This will load your application on the device, allowing you to interact with it directly.
 
 This setup process should equip you with a fully functioning development environment for the VolunTrack application, enabling you to proceed with development or testing phases. Remember to check and run any existing automated tests to ensure your setup has been successful and the application behaves as expected.
+
+# Data Preparation and Setup
+
+Firebase Realtime Database Version 9.6.11
+Link to Firebase Documentation: https://firebase.google.com/docs
+Data is typically generated and managed within the Firebase Realtime Database directly through the application's functionality (e.g., user registration, event creation). For user registration, simply launch the app and sign up for an account with user information of your choice (name, email, phone number, and password). Once you are logged in you can create as many events as you’d like by clicking the “create event” button. You’ll have to again input information of your choice (name, location, duration, description, etc.). The data is loaded into the database real time on event and/or user creation.
