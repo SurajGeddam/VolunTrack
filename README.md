@@ -33,6 +33,6 @@ Data is typically generated and managed within the Firebase Realtime Database di
 
 Example Data in application:
 
-![ss](.img/DB_User.jpeg)
+![ss](img/DB_User.jpeg)
 
 The data is loaded into the database real time on event and/or user creation.
