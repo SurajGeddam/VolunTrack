@@ -33,19 +33,21 @@ Data is typically generated and managed within the Firebase Realtime Database di
 
 Example Data Setup/Addition in application:
 
-![ss](img/Enter_Data1.PNG)
-![ss](img/Enter_Data2.PNG)
+<img src="img/Enter_Data1.PNG" width=200>
+<img src="img/Enter_Data2.PNG" width=200>
 
 Example of Application after Data updates:
 
-![ss](img/Profile.PNG)
-![ss](img/Past_Created.PNG)
+<img src="img/Profile.PNG" width=200>
+<img src="img/Past_Created.PNG" width=200>
 
 Code block example of updating data:
-![ss](img/Code.png)
+
+<img src="img/Code.png" width=500>
 
 Example of Synthetic database:
-![ss](img/DB_Events.jpeg)
-![ss](img/DB_User.jpeg)
+
+<img src="img/DB_Events.jpeg" width=500>
+<img src="img/DB_User.jpeg" width=500>
 
 The data is loaded into the database real time on event and/or user creation.
